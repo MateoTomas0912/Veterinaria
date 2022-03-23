@@ -1,0 +1,78 @@
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav h3{
+    margin: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+h3{
+    font-size: 24px;
+}
+
+.servicio{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+img{
+    width: 300px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.redes{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.resaltado{
+    font-size: 30px;
+    color: red;
+}
+
+.texto{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.subServicios{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
